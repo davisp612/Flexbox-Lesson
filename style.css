@@ -1,0 +1,59 @@
+/* ? Flexbox
+* module dividing our wireframe
+* divides wireframes into parent & child containers
+* uses custom properties and values
+* it uses the pattern of parents controlling children */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+body { 
+    background-color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.parent-container {
+    background-color:blue;
+    display: flex;
+    /* Enables flex container powers */
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction:row;
+    justify-content: ;
+    align-items: center;
+    gap: 10em;
+}
+
+.nav-link{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-link:nth-child(1){
+    color: red;
+}
+
+.nav-link:nth-child(2)
+{color: green}
+
+
+
+
+#logo {
+    width: 4.5em;
+    object-fit: cover;
+    padding-right: 1em;
+    padding-left: 1em;
+}
